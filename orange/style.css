@@ -1,0 +1,427 @@
+*{
+    padding:0;
+    margin:0;
+    border:border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.peach{
+    width:70rem;
+    height:100vh;
+}
+
+.navbar{
+    height:100px;
+    width:70%;
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 18px;
+}
+
+.nav{
+    border:3px solid transparent;
+    padding-bottom:5px;
+    border-radius: 3px;
+}
+
+.nav:hover{
+    border-bottom:3px solid black;
+}
+
+.box{
+    font-weight: 600;
+    font-size: 27px;
+    margin-right: 100px;
+    margin-left:35px;
+}
+
+.page_1{
+    display:flex;
+}
+
+.yellow{
+    width:30rem;
+    height:100vh;
+    display:flex;
+    justify-content: space-evenly;
+}
+
+.icn{
+    display: flex;
+}
+
+.notify{
+    font-size: 10px;
+    margin-top: 2px;
+}
+
+.icon{
+    margin-top: 5px;
+    margin-left:300px;
+    font-size: 20px;
+}
+
+.profile{
+    height:30px;
+    width:30px;
+    background-image: url("images/photo.jpg");
+    background-size: cover;
+    border-radius: 50%;
+    margin-left: 20px;
+    box-shadow: 5px 5px 7px #c59c3b;
+}
+
+.profile:hover{
+    height:35px;
+    width:35px;
+    box-shadow: 5px 5px 7px #ac8630;
+}
+
+.profile:active{
+    height:30px;
+    width:30px;
+}
+
+.nav_bar{
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content:end;
+}
+
+.orange{
+    height:650px;
+    width:300px;
+    border-radius:10px;
+    background-image:url("images/orange.png");
+    background-color:transparent;
+    background-size: cover;
+    position:absolute;
+    top:80px;
+    left:870px;
+}
+
+.b{
+    font-size: 80px;
+    font-weight: 900;
+    margin-left:67px;
+    margin-top:7px;
+    color:black;
+    font-family:Tw Cen MT;
+}
+
+.b_{
+    font-size: 80px;
+    font-weight: 900;
+    margin-left:67px;
+    color:black;
+    font-family: Tw Cen MT;
+}
+
+.c{
+    display:flex;
+    margin-left:67px;
+}
+
+.d{
+    margin-top:30px;
+    margin-right:5px;
+}
+
+.e{
+    font-size: 30px;
+    font-weight: 700;
+    margin-top:17px;
+    margin-left: 10px;
+}
+
+.f{
+    font-size:17px;
+    margin-top: 20px;
+    margin-left: 12px;
+}
+
+.g_{
+    display:flex;
+}
+
+.g{
+    height:50px;
+    width:120px;
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 67px;
+    background-color: white;
+    border-radius: 17px;
+}
+
+.g1{
+    font-size: 25px;
+    border: 2px solid white;
+    border-radius: 15px;
+    background-color: transparent;
+    width:20px;
+}
+
+.z1:hover{
+    box-shadow: 3px 3px 3px #daddca;
+}
+
+.z1:active{
+    box-shadow: 4px 4px 4px rgb(61, 61, 61);
+}
+
+.mi{
+    margin-bottom: 5px;
+}
+
+.a2{
+    margin-bottom: 5px;
+}
+
+.h{
+    font-size: 18px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    background-color: black;
+    height: 50px;
+    width:170px;
+    margin-left:20px;
+    border-radius: 17px;
+}
+
+.h:hover{
+    box-shadow: 5px 5px 5px grey;
+}
+
+.h:active{
+    box-shadow: 6px 6px 6px rgb(70, 70, 70);
+}
+
+.i{
+    margin-top:5px;
+    margin-left: 5px;
+}
+
+.j{
+    margin-left: 67px;
+    margin-top: 40px;
+    font-size:21px;
+    font-weight: 600;
+}
+
+.k{
+    display:flex;
+}
+
+.l{
+    margin-top: 30px;
+    height:130px;
+    width:190px;
+    background-color: #e6edc1;
+    margin-left: 67px;
+    border-radius: 25px;
+    border:2px solid #e6edc1;
+    display: flex;
+    box-shadow: 10px 10px 10px rgb(112, 112, 112);
+}
+
+.l:hover{
+    height:135px;
+    width:195px;
+    box-shadow: 10px 10px 10px #545453;
+}
+
+.l:active{
+    height:130px;
+    width:190px;
+}
+
+.m{
+    margin-left: 40px;
+}
+
+.n{
+    background-color: #e6edc1;
+    height:40px;
+    width:45px;
+    border-radius: 40px;
+    margin-top:70px;
+    margin-left:40px ;
+    border:2px solid #e6edc1;
+    font-weight:700;
+    box-shadow: 10px 10px 15px rgb(112, 112, 112);
+}
+
+.n:hover{
+    height:45px;
+    width:50px;
+    box-shadow: 10px 10px 15px #545453;
+}
+
+.n:active{
+    height:40px;
+    width:45px;
+}
+
+.bottle_1{
+    height:100px;
+    width:50px;
+    background-image: url("images/apple.png");
+    background-size: cover;
+    margin-left:20px;
+    margin-top: 10px;
+}
+
+.bottle_2{
+    height:100px;
+    width:50px;
+    background-image: url("images/lemon.png");
+    background-size: cover;
+    margin-left:20px;
+    margin-top: 10px;
+    
+}
+
+.heart{
+    height:10px;
+    width:10px;
+    margin-top: 10px;
+}
+
+.qwe{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.name{
+    font-size: 13px;
+    font-weight: 900;
+    display:flex;
+    align-self: flex-start;
+}
+
+.price{
+    font-size: 20px;
+    font-weight: 900;
+    margin-top: 10px;
+    display: flex;
+    align-self: flex-start;
+}
+
+.qty{
+    font-size: 10px;
+    margin-top: 5px;
+    margin-right: 37px;
+}
+
+
+
+
+.small{
+    display: flex;
+    position: absolute;
+    left:670px;
+    top:280px;
+    height:300px;
+    width:250px;
+}
+
+.small_2{
+    position:absolute;
+    top:280px;
+    left:1200px;
+    height:300px;
+    width:250px;
+}
+
+.icons{
+    height:50px;
+    width:50px;
+    border-radius:20px;
+    background-size:cover;
+    border:2px solid #e6edc1;
+    background-color: transparent;
+}
+
+.icons:hover{
+    height:55px;
+    width:55px;
+}
+
+.icons:active{
+    height:50px;
+    width:50px;
+}
+
+.ab{
+    margin-top: 40px;
+    display: flex;
+    height:60px;
+    width:200px;
+}
+
+.a1{
+    display: flex;
+    justify-content: end;
+}
+
+.text{
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.t1{
+    margin-right:30px;
+    margin-top: 15px;
+}
+
+.t2{
+    margin-left:30px;
+    margin-top: 15px;
+}
+
+.zq{ 
+    box-shadow: 7px 7px 10px rgb(125, 125, 125);
+}
+
+.zq:hover{
+    box-shadow: 7px 7px 10px rgb(69, 68, 68);
+}
+
+.mn{
+    border:2px solid #f5c75d;
+    box-shadow: 7px 7px 15px #b68f35;
+}
+
+.mn:hover{
+    box-shadow: 7px 7px 15px #7a5e1c;
+}
+
+.ba{
+    background-image: url("images/banana.png");   
+}
+
+.pine{
+    background-image: url("images/pineapple.png");
+}
+
+.or{
+    background-image: url("images/orange_2.png");
+}
+
+.al{
+    background-image: url("images/almond.png");
+}
+
+.av{
+    background-image: url("images/avacado.png");
+}
+
+.ma{
+    background-image: url("images/mango.png");
+}
